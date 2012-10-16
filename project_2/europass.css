@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+html *
+{
+   font-size: 20px !important;
+   width:1000px !important;
+   position: relative;
+}
+
+ul {
+	
+	list-style-type: none;
+	display:inline;
+}
+
+#experience {
+
+	position: relative;
+	left:-40px;
+}
+
+li > p {
+
+	display:inline;
+	
+}
+
+
+
+.g_name {
+
+  height:40px;
+ 	left:400px;	
+	top:-30px;
+	font-weight:bold;	
+	
+}
+
+.address {
+		top:-25px;
+}
+
+.g_address {
+		top:-50px;
+		left:400px;	
+}
+
+.telephone {
+		top:-50px;
+}
+
+.g_telephone {
+		top:-75px;
+		left:400px;	
+}
+
+.mobile {
+	top:-100px;
+	left:700px;	
+}
+.g_mobile {
+	float:left;
+  border-left:1px solid black;
+	top:-125px;
+	left:800px;	
+}
+
+.e-mail {
+	top:-125px;
+
+}
+
+.g_mail {
+	top:-150px;
+	left:400px;	
+
+}
+.nationality {
+	
+	top:-150px;
+}
+.g_nationality {
+	
+	top:-175px;
+	left:400px;
+}
+
+.bday {
+	top:-175px;
+}
+
+.g_bday {
+	top:-200px;
+	left:400px;
+}
+
+.gender {
+	top:-200px;
+}
+.g_gender {
+	top:-225px;
+	left:400px;
+}
+
+#occ_field {
+  top:-350px;
+}
+
+.itsec {
+
+  top: -50px;
+  left:400px;
+}
+
+#experience {
+  top:-350px;
+  left:0px;
+
+}
+
+#education {
+
+  top:140px;
+}
+
+.g_date1 {
+
+  top:-25px;
+  left:400px;
+}
+
+.position1 {
+
+  top:-25px;
+}
+
+.g_position1 {
+
+  top:-50px;
+  left:400px;
+}
+
+.activity1  {
+  top:-50px;
+}
+.g_activity1 {
+
+top:-75px;
+left:400px;
+}
+
+.english {
+  border-style:1px solid;
+  text-align:center;
+  top:-25px;
+  left:400px;
+}
+
+.g_date2 {
+
+top:-25px;
+left:400px;
+}
+
+.title1 {
+
+  top:-25px;
+}
+
+.g_title1 {
+
+  top:-50px;
+  left:400px;
+}
+
+#skills {
+
+  top:-200px;
+
+}
+
+.other_lang > p {
+  left:-80px;
+  top: 100px;
+  font-weight:bold;
+
+}
+.mother > p {
+
+  left:250px;
+
+  font-weight:bold;
+}
+
+.g_organ1 {
+  top:-25px;
+  left:400px;
+
+}
+
+.g_organ2 {
+  top:-25px;
+  left:400px;
+
+}
+.tech {
+  top:-25px;
+
+}
+.g_tech {
+  top:-50px;
+  left:400px;
+}
+
+.comp_skills {
+  top: -40px;
+  left:400px;
+}
+
+.comp_skills h1 {
+  font-weight:normal;
+  left:-400px;
+  top: 40px;
+}
+
+#additional {
+
+  top:-150px;
+
+}
+
+.presentation1 {
+
+  top:-60px;
+  left:400px;
+}
+
+.presentation2 {
+
+  top:-60px;
+  left:400px;
+}
+
+#more {
+
+  top:-150px;
+
+}
+
+.blog {
+
+  top:-60px;
+  left:400px;
+}
+
+.github {
+
+  top:-60px;
+  left:400px;
+
+}
+div {
+
+   padding-left:50px;
+  
+}
+
+#footer > a{
+
+    padding: 5px 5px;
+    color: white;
+    text-decoration:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px black;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+#footer>a:hover, #footer>a:focus {
+    background: gray;
+    border: solid 1px black;
+    text-decoration: none;
+}
+
+
+#line {
+	display:block;
+	clear:both;
+}
+
+/* Hide this for europass */
+#follow {
+	display:none;
+}
+
+/* CSS Document */
+ 

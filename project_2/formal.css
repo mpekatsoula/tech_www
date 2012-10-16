@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+html * {
+	font-family:"Arial", serif;
+	font-size:14px;
+}
+
+h1 {
+	
+	font-size:20px;
+}
+
+#info {
+	
+	text-align:center;
+	
+}
+
+
+.g_name {
+
+	font-weight:bold;
+	font-style:italic;
+	font-size:24px;
+		
+}
+
+.g_mail {
+	display:inline;
+}
+
+.comp_skills {
+	list-style:none;
+	
+}
+
+#experience h1 {
+	
+	padding-top:20px;
+	border-top: 2px solid gray;
+
+}
+
+.comp_skills > h1 {
+	display:none;	
+}
+
+#education h1 {
+	
+	padding-top:20px;
+	border-top: 2px solid gray;
+
+}
+
+.g_title1 {
+	list-style:none;
+}
+
+.g_position1 {
+	
+	list-style:none;
+}
+
+.g_activity1 {
+	list-style:none;
+	
+}
+#skills > h1 {
+	padding-top:20px;
+	border-top: 2px solid gray;
+
+}
+.telephone {
+    left:-98px;
+	position:relative;
+
+}
+.g_telephone {
+	position:relative;
+ 	left:0px;	
+	top:-15px;
+
+}
+
+.mobile {
+    left:-108px;
+	position:relative;
+	top:-15px;
+
+}
+.g_mobile {
+	position:relative;
+ 	left:0px;	
+	top:-30px;
+}
+
+.e-mail {
+    left:-108px;
+	position:relative;
+	top:-30px;
+
+}
+
+.g_mail {
+	position:relative;
+ 	left:30px;	
+	top:-45px;	
+}
+
+.mother p {
+	display:inline;
+}
+.other_lang p {
+	display:inline;
+}
+#more h1 {
+	padding-top:20px;
+	border-top: 2px solid gray;
+
+}
+
+#additional h1 {
+	padding-top:20px;
+	border-top: 2px solid gray;
+
+}
+#footer > a{
+
+    padding: 5px 5px;
+    color: white;
+    text-decoration:none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px black;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+#footer>a:hover, #footer>a:focus {
+    background: gray;
+    border: solid 1px black;
+    text-decoration: none;
+}
+
+
+
+#info ul {
+	padding-top:20px;
+	list-style:none;
+	
+}
+
+/* Hidden stuff */
+.g_telephone {
+	diplay:inline;
+}
+#info h1 {
+	display:none;
+}
+.name  {
+	display:none;
+}
+.address {
+	display:none;
+}
+.nationality  {
+	display:none;
+}
+.g_nationality {
+	display:none;
+}
+.gender {
+	display:none;
+}
+.g_gender {
+	display:none;
+}
+.date2 {
+	display:none;
+}
+.title1 {
+	display:none;
+}
+.bday {
+	display:none;
+}
+.g_bday {
+	display:none;
+}
+#occ_field{
+	display:none;
+}
+#follow {
+	display:none;
+}
+.date1 {
+	display:none;
+}
+.position1 {
+	display:none;
+}
+.activity1 {
+	display:none;
+}
+.english {
+	display:none;
+}
+.orginisational {
+	display:none;
+}
+.tech {
+	display:none;
+}
