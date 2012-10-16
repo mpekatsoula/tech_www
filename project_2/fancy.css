@@ -7,6 +7,7 @@ html *
    color:white;
    
 }
+
 #info {
 
 	float:left;
@@ -170,8 +171,8 @@ ul {
 	font-family: 'Raleway Dots', cursive;
 	position: fixed;
 	white-space: nowrap;
-  top:41%;
-  left:-20%;
+  top:40%;
+  left:-19%;
 	color:#0CF;
 	font-size: 100px;
 	font-weight:bold;
