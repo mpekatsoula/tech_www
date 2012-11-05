@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <title>Register to PhotoGlue</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="buttons/buttons.css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    
+    
+    <body>
+            
+ <script type="text/javascript">         
+    function validate(form) {
+        var e = form.elements;
+        if(e['pass'].value != e['pass_ver'].value) {
+            alert('Your passwords do not match. Please try again');
+            return false;
+        }
+        if (e['username'].value == null || e['username'].value =="" ){
+            alert('You must enter a username');
+            return false;
+        }
+        if ((e['username'].value).length > 40){
+            alert('Username must be less than 40 characters');
+            return false;
+        }
+        if ((e['email'].value).length > 40){
+            alert('E-mail must be less than 40 characters');
+            return false;
+        }
+        return true;
+    }
+</script>
+        <div id="border" >
+             <form action="register.do" method="POST" onsubmit="return validate(this)" >
+                <p> Username *<input type="text" name="username" /></p> <br>
+
+                <p> Password   *<input type="password" name="pass" /></p> <br>
+                
+                <p> Verify Pass   *<input type="password" name="pass_ver" /></p><br>
+                
+                <p> Optional mail   <input type="text" name="email" /></p><br>
+                
+                <input class="button small blue" type="submit" />
+             </form>
+
+        </div>
+
+        <div id="footer">
+	<div class="tri"></div>
+	<h1>Register now!</h1>
+        </div>
+
+    </body>
+</html>
