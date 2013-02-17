@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Context crossContext="true" antiJARLocking="true" path="/DiscoV">
+ 
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+ 
+   <Resource name="jdbc/m_users" auth="Container"
+        type="javax.sql.DataSource"
+        maxActive="100" maxIdle="30" maxWait="10000"
+        username="root"
+        password="fashionpolice"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost/m_users"/>
+  </Context>
